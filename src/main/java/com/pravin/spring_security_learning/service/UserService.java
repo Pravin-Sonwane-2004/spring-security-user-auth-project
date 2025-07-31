@@ -1,10 +1,9 @@
 package com.pravin.spring_security_learning.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Service;
 
 import com.pravin.spring_security_learning.dto.UserDTO;
+import com.pravin.spring_security_learning.entity.User;
 import com.pravin.spring_security_learning.mapper.UserMapper;
 import com.pravin.spring_security_learning.repository.UserRepository;
 
