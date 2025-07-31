@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-SpringSecurityLearningApplication<spring-security-learning>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.pravin.spring_security_learning.SpringSecurityLearningApplication",
+      "projectName": "spring-security-learning",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
