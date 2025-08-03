@@ -1,6 +1,7 @@
 com\pravin\spring_security_learning\mapper\UserMapperImpl.class
 com\pravin\spring_security_learning\repository\UserRepository.class
 com\pravin\spring_security_learning\mapper\UserMapper.class
+com\pravin\spring_security_learning\entity\Role.class
 com\pravin\spring_security_learning\SpringSecurityLearningApplication.class
 com\pravin\spring_security_learning\entity\NotesEntity.class
 com\pravin\spring_security_learning\dto\NotesDto.class
