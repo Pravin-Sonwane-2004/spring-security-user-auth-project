@@ -22,4 +22,6 @@ public class User {
     private Long id;
     private String Username;
     private String Password;
+    private Role role;
+
 }

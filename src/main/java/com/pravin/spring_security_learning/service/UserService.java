@@ -20,9 +20,9 @@ public class UserService {
   }
 
   //actual impl
-  public void createUser(UserDTO userDTO) {
+  public  User createUser(UserDTO userDTO) {
     User user = userMapper.toEntity(userDTO);
-    userepository.save(user);
+    return userepository.save(user);
   }
 
 }
