@@ -1,0 +1,69 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Logs ===
+*.log
+logs/
+*.out
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.target/
+
+# VS Code
+.vscode/
+
+# === Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# === Gradle (if used) ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Environment Files ===
+*.env
+.env
+
+# === Database Files ===
+*.h2.db
+*.mv.db
+
+# === Test Reports ===
+/surefire-reports/
+/test-output/
+
+# === Temporary Files ===
+*.tmp
+*.swp
+*.swo
+
+# === Docker Files ===
+/docker-compose.override.yml
+*.pid
+
+# === Node (if frontend included) ===
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
