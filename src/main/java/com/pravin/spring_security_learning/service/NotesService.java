@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class NotesService {
   public String sayHello() {
-    String Hello = "Hello";
+    String Hello = "Homepage";
     return Hello;
   }
 }

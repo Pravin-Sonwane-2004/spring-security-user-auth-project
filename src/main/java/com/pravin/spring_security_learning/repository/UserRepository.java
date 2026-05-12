@@ -7,7 +7,4 @@ import com.pravin.spring_security_learning.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User,Long> {
-
-  Object save(org.springframework.boot.autoconfigure.security.SecurityProperties.User user);
-  
 }

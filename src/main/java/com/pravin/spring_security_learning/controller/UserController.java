@@ -1,5 +1,6 @@
 package com.pravin.spring_security_learning.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.pravin.spring_security_learning.dto.UserDTO;
@@ -24,5 +25,9 @@ public class UserController {
     userService.createUser(userDTO);      
     return ResponseEntity.ok("User created successfully");
   }
-  
+  @GetMapping("/login")
+  public ResponseEntity<String> getMethod(@RequestBody UserDTO userDTO) {
+      userService.createUser(userDTO);
+      return ResponseEntity.ok("User created successfully");
+  }
 }
