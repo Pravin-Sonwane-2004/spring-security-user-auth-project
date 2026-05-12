@@ -7,4 +7,5 @@ import com.pravin.spring_security_learning.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User,Long> {
+
 }
